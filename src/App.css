@@ -36,3 +36,47 @@
     transform: rotate(360deg);
   }
 }
+
+.tab-list {
+  border-bottom: 1px solid #ccc;
+  padding-left: 0;
+}
+
+.tab-list-item {
+  position: relative;
+  display: inline-block;
+  list-style: none;
+  margin-bottom: -1px;
+  padding: 0.5rem 0.75rem;
+}
+
+.tab-list-active {
+  background-color: white;
+  border: solid #ccc;
+  border-width: 1px 1px 0 1px;
+}
+
+li {
+  position: relative;
+  margin: 0;
+  padding-bottom: 1em;
+  padding-left: 20px;
+}
+
+li:before {
+  content: '';
+  position: absolute;
+  bottom: 0px;
+  top: 0px;
+  left: 6px;
+  width: 3px;
+}
+
+li:after {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 2px;
+  height: 12px;
+  width: 12px;
+}
